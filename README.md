@@ -69,5 +69,8 @@ Used for generic menu like playlist selection, todo, run, etc...
 ## Dock
 ![Dock](screenshots/dock.png)
 
+## Dock with double border
+![Dock](screenshots/dock_double_border.png)
+
 ## Generic
 ![Generic](screenshots/generic.png)
