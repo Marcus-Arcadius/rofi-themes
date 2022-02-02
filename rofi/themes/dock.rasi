@@ -1,5 +1,5 @@
 * {
-    font:                           "JetBrainsMono Nerd Font 50";
+    font:                           "JetBrainsMono Nerd Font 30";
 
     red:                            #BF616A;
     darkred:                        #BF616A;
@@ -22,43 +22,30 @@
     padding:          0px;
     margin:           0px;
     lines:		        1;
-    columns:          4;
+    columns:          7;
 }
 
 window {
   fullscreen:       false;
   padding:          20px;
   background-color: @background;
+  background-image: url("images/pattern_dock.png");
 }
 
 mainbox {
   padding:  8px;
-  children: [inputbar, listview];
-}
-
-prompt {
-  padding:		      15px;
-  font:			        "JetBrainsMono Nerd Font 15";
-  expand:           false;
+  children: [listview];
   background-color: @background;
-  border-radius:    10px;
-
-}
-
-inputbar {
-  children:		         [ prompt ];
-  expand:		           false;
-	border-radius:       10px;
-  background-image:    url("images/pattern_big.png");
-  padding:             50px 50px 50px 450px;
+  border-radius: 10px;
+  border: 30px;
 }
 
 listview {
-    border:       0px 0px 0px;
+    border:       0px 0px 0px 0px;
     border-color: @separatorcolor;
     spacing:      0px;
     scrollbar:    false;
-    padding:			50px 0px;
+    //padding:			50px 0px;
     background:   @background;
 }
 
@@ -85,6 +72,6 @@ element-icon {
 }
 
 element-text {
-  horizontal-align: 0.5;
+  horizontal-align: 0.45;
   padding:  0px 0px 0px 0px;
 }

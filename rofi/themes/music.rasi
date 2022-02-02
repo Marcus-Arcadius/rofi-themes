@@ -71,13 +71,13 @@ element {
   spacing:          0px;
   orientation:      horizontal;
   horizontal-align: 1; 
-  border-radius:    20px;
+  border-radius:    10px;
 }
 
 element selected {
     text-color: @background;
     color: @background;
-    background-color: @blue;
+    background-color: @border;
 }
 
 element-icon {

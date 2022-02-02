@@ -12,4 +12,4 @@ RES=`echo "$PLAYER|$PREV|$ICON|$NEXT" | rofi -dmenu -p "$MPD" -sep "|" -theme mu
 [ "$RES" = "$PAUSE" ] && mpc toggle
 [ "$RES" = "$PREV" ]  && mpc prev
 [ "$RES" = "$NEXT" ]  && mpc next
-[ "$RES" = "$PLAYER" ]  && urxvt -name "music_player" -e ncmpcpp_art
+[ "$RES" = "$PLAYER" ]  && urxvt -name "music_player" -e ncmpcpp

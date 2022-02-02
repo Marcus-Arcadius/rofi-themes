@@ -5,6 +5,11 @@ This is a collection of themes
 
 - rofi 1.7.2+ (CSS config style)
 - any nerd font like `JetBrainsMonoMedium Nerd Font`
+- mpc (for music control)
+- i3lock-fancy-dualmonitor (used as a lockscreen)
+- bspwm (used in the powermenu)
+- ncmpcpp (used in the music control)
+- systemd (used to shotdown/reboot)
 
 # Themes
 
@@ -14,26 +19,27 @@ Used to launch program
 ### Usage
 ```rofi -show drun -theme applications -show-icons```
 
-## Music Launcher
+## Music Control
 Used to:
   - open ncmpcpp
   - go to previous track
   - play/pause music
   - go to next track
 
+> all of this is done using mpc and urxvt
 ### Usage
-Use the script `musicontrol` inside the `scripts` folder
+Use the script `musicontrol.sh` inside the `scripts` folder
 
 
-## Music Launcher
+## Power Menu
 Used to:
   - poweroff
   - restart
-  - logout
-  - lock the screen
+  - logout (using `bspc` from `bspwm`)
+  - lock the screen (using `i3lock-fancy-dualmonitor`)
 
 ### Usage
-Use the script `powermenu` inside the `scripts` folder
+Use the script `powermenu.sh` inside the `scripts` folder
 
 
 ## Generic

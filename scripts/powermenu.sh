@@ -9,4 +9,4 @@ RES=`echo "$POWER|$RESTART|$LOGOUT|$LOCK" | rofi -dmenu -p "$MESSAGE" -sep "|" -
 [ "$RES" = "$POWER" ] && systemctl poweroff
 [ "$RES" = "$RESTART" ] && systemctl reboot
 [ "$RES" = "$LOGOUT" ] && bspc quit
-[ "$RES" = "$LOCK" ] && i3lock-fancy-dualmonitor -f "/usr/share/fonts/adobe-source-han-sans/SourceHanSansJP-Normal.otf"
+[ "$RES" = "$LOCK" ] && sleep .2 && i3lock-fancy-dualmonitor
