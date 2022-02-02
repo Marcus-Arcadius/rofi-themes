@@ -42,6 +42,13 @@ Used to:
 Use the script `powermenu.sh` inside the `scripts` folder
 
 
+## Dock
+Used to launch programs
+
+### Usage
+Use the script `dock.sh` inside the `scripts` folder
+
+
 ## Generic
 Used for generic menu like playlist selection, todo, run, etc...
 
@@ -58,6 +65,9 @@ Used for generic menu like playlist selection, todo, run, etc...
 
 ## Powermenu
 ![PowerMenu](screenshots/powermenu.png)
+
+## Dock
+![Dock](screenshots/dock.png)
 
 ## Generic
 ![Generic](screenshots/generic.png)
