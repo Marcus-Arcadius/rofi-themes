@@ -33,19 +33,16 @@ window {
 }
 
 mainbox {
-  padding:  8px;
+  padding:  50px;
   children: [listview];
   background-color: @background;
   border-radius: 10px;
-  border: 30px;
 }
 
 listview {
-    border:       0px 0px 0px 0px;
     border-color: @separatorcolor;
     spacing:      0px;
     scrollbar:    false;
-    //padding:			50px 0px;
     background:   @background;
 }
 
